@@ -6,9 +6,9 @@ rules:                      # Array of rules
   - base: feature           # Change "feature" to the name of the feature your fork represents.
     upstream: dev        # Trickle changes down from dev to your feature branch. Sub-team leads will resolve merge conflicts.
     assignees:              # Sub-team leads
-      - wei
+      - stacalpha
     reviewers:              # Sub-team leads
-      - wei
+      - stacalpha
       
       # Add additional rules if you need to configure auto-pull to each sub-team members working branch.
 label: ":arrow_heading_down: pull"  # Optional
