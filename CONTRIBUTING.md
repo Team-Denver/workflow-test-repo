@@ -44,12 +44,15 @@ __*The following steps must be run periodically to keep your work, and that your
 4. Push the newly merged changes to your fork's remote (online) repo. This is configured as 'origin' by default.    
     <pre>git push origin develop</pre>      
 
-Recall that your group works on a feature branch. So now you need to update that too.     
+Recall that your group works on a feature branch. So now you need to update that too.
+
 5. Switch to your feature branch.        
     <pre>git checkout ft__your-feature-name</pre>        
 6. Now make sure your local feature branch is up-to-date with any work your group members have done.        
-    <pre>git fetch origin</pre>        
-    <pre>git merge origin/ft__your-feature-name</pre>         
+    <code>
+      git fetch origin
+      git merge origin/ft__your-feature-name
+    </code>         
   *You may encounter merge conflicts here. 
   [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
   then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*    
