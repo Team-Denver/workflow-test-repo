@@ -39,7 +39,7 @@ __*The following steps must be run periodically to keep your work, and that of y
     <pre>git checkout develop</pre>     
 2. Get all remote (online) upstream changes into your local computer.        
     <pre>git fetch upstream</pre>     
-3. Merge changes fecthed with your local develop branch. ('develop' must be the currently checked-out branch)       
+3. Merge changes fetched with your local develop branch. ('develop' must be the currently checked-out branch)       
     <pre>git merge upstream/develop</pre>    
 4. Push the newly merged changes to your fork's remote (online) repo. This is configured as 'origin' by default.    
     <pre>git push origin develop</pre>      
