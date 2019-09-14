@@ -44,7 +44,7 @@ __*The following steps must be run periodically to keep your work, and that your
 4. Push the newly merged changes to your fork's remote (online) repo. This is configured as 'origin' by default.    
     git push origin develop
 
-Recall that your group works on a feature branch. So now you need to update that too.       
+    Recall that your group works on a feature branch. So now you need to update that too.       
 5. Switch to your feature branch.       
     git checkout ft__your-feature-name      
 6. Now make sure your local feature branch is up-to-date with any work your group members have done.      
