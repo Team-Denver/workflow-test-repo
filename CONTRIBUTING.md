@@ -61,7 +61,7 @@ Recall that your group works on a feature branch. So now you need to update that
 8. Finally, push your newly merged feature branch to the remote github server so your group members can get updated as well.      
     git push origin ft__your-feature-name      
 9. Now return to your working branch.       
-    > git checkout @your-slack-username     
+> git checkout @your-slack-username     
 
 Continue with the steps in the next section.
 
