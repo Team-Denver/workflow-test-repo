@@ -70,7 +70,7 @@ Recall that your group works on a feature branch. So now you need to update that
 
 Continue with the steps in the next section.
 
-#### All Team Members - Pulling Remote
+#### All Team Members - Pulling Origin
 *Your group/sub-team lead has the responsibility of keeping your forked repo updated on the remote github server. All you need to do is get those changes unto your local computer.*       
 Your local repository automatically has a remote 'origin' set up when you clone. This points to the online repository you cloned unto your system. You will be pushing your work to 'origin' to back it up online.       
 __*The following steps must be run periodically to keep your work up-to-date. You can run these commands as often as every hour. You want to fetch any new changes as soon as possible. Each time you want to begin working, or take a break from your work, run these first.*__       
