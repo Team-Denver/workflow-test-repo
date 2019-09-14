@@ -37,30 +37,30 @@ __*The following steps must be run periodically to keep your work, and that your
 
 1. Switch to the develop branch        
     <pre>git checkout develop</pre>     
-2. Get all remote (online) upstream changes into your local computer.       
+2. Get all remote (online) upstream changes into your local computer.        
     <pre>git fetch upstream</pre>     
-3. Merge changes fecthed with your local develop branch. ('develop' must be the currently checked-out branch)     
+3. Merge changes fecthed with your local develop branch. ('develop' must be the currently checked-out branch)       
     <pre>git merge upstream/develop</pre>    
 4. Push the newly merged changes to your fork's remote (online) repo. This is configured as 'origin' by default.    
     <pre>git push origin develop</pre>      
 
 Recall that your group works on a feature branch. So now you need to update that too.     
-5. Switch to your feature branch.       
+5. Switch to your feature branch.        
     <pre>git checkout ft__your-feature-name</pre>        
-6. Now make sure your local feature branch is up-to-date with any work your group members have done.      
+6. Now make sure your local feature branch is up-to-date with any work your group members have done.        
     <pre>git fetch origin</pre>        
-    <code>git merge origin/ft__your-feature-name</code>         
+    <pre>git merge origin/ft__your-feature-name</pre>         
   *You may encounter merge conflicts here. 
   [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
   then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*    
-7. Merge the changes on the newly merged develop branch, into your feature branch.      
+7. Merge the changes on the newly merged develop branch, into your feature branch.        
     <pre>git merge develop</pre>         
   *You may encounter merge conflicts here. 
   [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
   then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*    
-8. Finally, push your newly merged feature branch to the remote github server so your group members can get updated as well.      
+8. Finally, push your newly merged feature branch to the remote github server so your group members can get updated as well.        
     <pre>git push origin ft__your-feature-name</pre>      
-9. Now return to your working branch.       
+9. Now return to your working branch.        
     <pre>git checkout @your-slack-username</pre>      
 
 Continue with the steps in the next section.
@@ -73,20 +73,20 @@ Be sure to
 [stash](https://dev.to/neshaz/how-to-git-stash-your-work-the-correct-way-cna) 
 or commit all changes first.  
 
-1. Switch to the feature branch     
+1. Switch to the feature branch        
     <pre>git checkout ft__your-feature-name</pre>          
-2. Get all remote (online) 'origin' changes into your local computer.      
+2. Get all remote (online) 'origin' changes into your local computer.        
     <pre>git fetch origin</pre>      
-3. Merge changes fecthed with your local feature branch. (The local feature branch must be the currently checked-out branch. See step 1 above.)      
+3. Merge changes fecthed with your local feature branch. (The local feature branch must be the currently checked-out branch. See step 1 above.)        
     <pre>git merge origin/ft__your-feature-name</pre>      
-4. Next, switch to your working branch.      
+4. Next, switch to your working branch.        
     <pre>git checkout @your-slack-username</pre>      
-5. Merge the changes on the newly merged feature branch, into your working branch. You may run 'git branch' to confirm which branch you're about to merge into.      
+5. Merge the changes on the newly merged feature branch, into your working branch. You may run 'git branch' to confirm which branch you're about to merge into.        
     <pre>git merge ft__your-feature-name</pre>      
   *You may encounter merge conflicts here. 
   [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
   then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*      
-6. Finally, push your newly merged working branch to the remote github server for back up.      
+6. Finally, push your newly merged working branch to the remote github server for back up.        
     <pre>git push origin @your-slack-user-name</pre>      
 
 ## Code Structrure & Readability
