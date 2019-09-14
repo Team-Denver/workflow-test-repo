@@ -90,7 +90,8 @@ or commit all changes first.
     <pre>git merge ft__your-feature-name</pre>
     *You may encounter merge conflicts here.
     [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line),
-    then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*      
+    then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*    
+
 6. Finally, push your newly merged working branch to the remote github server for back up.        
     <pre>git push origin @your-slack-user-name</pre>      
 
