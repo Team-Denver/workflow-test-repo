@@ -58,10 +58,10 @@ Recall that your group works on a feature branch. So now you need to update that
     then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*
 
 7. Merge the changes on the newly merged develop branch, into your feature branch.        
-    <pre>git merge develop</pre>         
-  *You may encounter merge conflicts here. 
-  [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
-  then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*
+    <pre>git merge develop</pre>
+    *You may encounter merge conflicts here.
+    [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line),
+    then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*
 
 8. Finally, push your newly merged feature branch to the remote github server so your group members can get updated as well.        
     <pre>git push origin ft__your-feature-name</pre>      
@@ -87,10 +87,10 @@ or commit all changes first.
 4. Next, switch to your working branch.        
     <pre>git checkout @your-slack-username</pre>      
 5. Merge the changes on the newly merged feature branch, into your working branch. You may run 'git branch' to confirm which branch you're about to merge into.        
-    <pre>git merge ft__your-feature-name</pre>      
-  *You may encounter merge conflicts here. 
-  [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
-  then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*      
+    <pre>git merge ft__your-feature-name</pre>
+    *You may encounter merge conflicts here.
+    [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line),
+    then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*      
 6. Finally, push your newly merged working branch to the remote github server for back up.        
     <pre>git push origin @your-slack-user-name</pre>      
 
