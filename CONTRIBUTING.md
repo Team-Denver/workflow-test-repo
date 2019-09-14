@@ -46,7 +46,7 @@ __*The following steps must be run periodically to keep your work, and that your
 
 Recall that your group works on a feature branch. So now you need to update that too.       
 5. Switch to your feature branch.       
-    git checkout ft__your-feature-name
+    git checkout ft__your-feature-name      
 6. Now make sure your local feature branch is up-to-date with any work your group members have done.      
     git fetch origin        
     git merge origin/ft__your-feature-name        
@@ -63,7 +63,7 @@ Recall that your group works on a feature branch. So now you need to update that
 9. Now return to your working branch.       
     git checkout @your-slack-username     
 
-Now continue with the steps under the next section.
+Continue with the steps in the next section.
 
 #### All Team Members - Pulling Remote
 *Your group/sub-team lead has the responsibility of keeping your forked repo updated on the remote github server. All you need to do is get those changes unto your local computer.*       
