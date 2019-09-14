@@ -52,10 +52,10 @@ Recall that your group works on a feature branch. So now you need to update that
     ```
       git fetch origin       
       git merge origin/ft__your-feature-name
-    ```         
-  *You may encounter merge conflicts here. 
-  [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line), 
-  then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*
+    ```
+    *You may encounter merge conflicts here.
+    [Resolve them](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line),
+    then come back and complete the merge. If you merge often enough, any conflicts would be trivial and very few.*
 
 7. Merge the changes on the newly merged develop branch, into your feature branch.        
     <pre>git merge develop</pre>         
