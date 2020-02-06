@@ -1,2 +1,2 @@
 A respository to play around with GitHub workflows and Continuous Integration.
-Testing pull from upstream.
+Testing pull request <--> issue linking.
